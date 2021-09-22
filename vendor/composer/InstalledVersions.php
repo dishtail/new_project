@@ -24,12 +24,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'v7.30.0',
-    'version' => '7.30.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'b7ab2658c659408fb340c8a8178ecee3e8b6d371',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -42,6 +42,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '9cb795bf30988e8c96dd3c40623c48a877bc6714',
+    ),
+    'basemkhirat/elasticsearch' => 
+    array (
+      'pretty_version' => '1.4.4',
+      'version' => '1.4.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '85deeab55b44b1edd33f1a03151022ab60650e7d',
     ),
     'brick/math' => 
     array (
@@ -110,6 +119,33 @@ private static $installed = array (
       array (
       ),
       'reference' => '0dbf5d78455d4d6a41d186da50adc1122ec066f4',
+    ),
+    'elasticsearch/elasticsearch' => 
+    array (
+      'pretty_version' => 'v6.8.2',
+      'version' => '6.8.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '619c78266999c6e431df9ca0f844e8f656ac145b',
+    ),
+    'ezimuel/guzzlestreams' => 
+    array (
+      'pretty_version' => '3.0.1',
+      'version' => '3.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'abe3791d231167f14eb80d413420d1eab91163a8',
+    ),
+    'ezimuel/ringphp' => 
+    array (
+      'pretty_version' => '1.1.2',
+      'version' => '1.1.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '0b78f89d8e0bb9e380046c31adfa40347e9f663b',
     ),
     'facade/flare-client-php' => 
     array (
@@ -431,12 +467,12 @@ private static $installed = array (
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => 'v7.30.0',
-      'version' => '7.30.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'b7ab2658c659408fb340c8a8178ecee3e8b6d371',
     ),
     'laravel/tinker' => 
     array (
@@ -751,8 +787,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0|2.0',
-        1 => '1.0.0 || 2.0.0 || 3.0.0',
+        0 => '1.0.0 || 2.0.0 || 3.0.0',
+        1 => '1.0|2.0',
       ),
     ),
     'psr/simple-cache' => 
@@ -799,6 +835,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'fe665a03df4f056aa65af552a96e1976df8c8dae',
+    ),
+    'react/promise' => 
+    array (
+      'pretty_version' => 'v2.8.0',
+      'version' => '2.8.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f3cff96a19736714524ca0dd1d4130de73dbbbc4',
     ),
     'rhumsaa/uuid' => 
     array (

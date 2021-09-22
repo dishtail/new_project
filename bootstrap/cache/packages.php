@@ -1,4 +1,15 @@
 <?php return array (
+  'basemkhirat/elasticsearch' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Basemkhirat\\Elasticsearch\\ElasticsearchServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'ES' => 'Basemkhirat\\Elasticsearch\\Facades\\ES',
+    ),
+  ),
   'facade/ignition' => 
   array (
     'providers' => 
