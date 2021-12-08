@@ -9,7 +9,6 @@ class Login extends Common
 {
 
     public function index(){
-        return print_error('登录失败');
-//        dd(print_error());
+        return print_true(1,'登录成功');
     }
 }

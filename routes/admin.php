@@ -2,4 +2,4 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::post('/login', 'Login@index');
+Route::get('/login', 'Login@index');
